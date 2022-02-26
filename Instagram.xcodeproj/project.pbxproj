@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DBB68D427C5402A003CFC3D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB68D327C5402A003CFC3D /* Extensions.swift */; };
 		5DBE9B1B27AF7CDD009777D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBE9B1A27AF7CDD009777D2 /* AppDelegate.swift */; };
 		5DBE9B1D27AF7CDD009777D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBE9B1C27AF7CDD009777D2 /* SceneDelegate.swift */; };
 		5DBE9B1F27AF7CDD009777D2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBE9B1E27AF7CDD009777D2 /* HomeViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DBB68D327C5402A003CFC3D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		5DBE9B1727AF7CDD009777D2 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DBE9B1A27AF7CDD009777D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DBE9B1C27AF7CDD009777D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				5DBE9B5527B914A6009777D2 /* DatabaseManager.swift */,
 				5DBE9B5727B9158E009777D2 /* AuthManager.swift */,
 				5DBE9B5927B91FEE009777D2 /* StorageManager.swift */,
+				5DBB68D327C5402A003CFC3D /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				5DBE9B3827AF7FBC009777D2 /* NotificationsViewController.swift in Sources */,
 				5DBE9B4D27AF81AB009777D2 /* SearchResultViewController.swift in Sources */,
 				5DBE9B3F27AF808D009777D2 /* LoginViewController.swift in Sources */,
+				5DBB68D427C5402A003CFC3D /* Extensions.swift in Sources */,
 				5DBE9B4B27AF818D009777D2 /* SearchViewController.swift in Sources */,
 				5DBE9B3A27AF7FD8009777D2 /* ProfileViewController.swift in Sources */,
 				5DBE9B5827B9158E009777D2 /* AuthManager.swift in Sources */,
@@ -511,6 +515,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -541,6 +546,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
